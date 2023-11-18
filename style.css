@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+
+  .container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  h1, h2, h3, p {
+    margin: 0;
+  }
+
+  header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+  }
+
+  header h1 {
+    margin: 0;
+    font-size: 2em;
+  }
+
+  header p {
+    margin-top: 5px;
+    font-size: 1.2em;
+  }
+
+  section {
+    padding: 20px 0;
+  }
+
+  section h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    margin-bottom: 10px;
+  }
+
+  .contact {
+    display: flex;
+    align-items: center;
+  }
+
+  .contact img {
+    margin-right: 10px;
+  }
+
+  .education, .experience {
+    margin-bottom: 30px;
+  }
+
+  .skills {
+    margin-bottom: 20px;
+  }
+
+  .skills ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .skills li {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+
+  footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+  }
